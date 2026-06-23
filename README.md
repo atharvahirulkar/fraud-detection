@@ -264,10 +264,6 @@ Best run by AUC-PR is promoted to `production` in the MLflow model registry. `pr
 
 ---
 
-## Cloud Deployment (AWS)
-
-**Live API:** `http://fraudlens-alb-1532793415.us-east-1.elb.amazonaws.com`
-
 ### ECS Fargate + ALB (inference API)
 
 Infrastructure is bootstrapped once with `infra/setup-ecs.sh`. After that, every push to `main` triggers GitHub Actions which:
